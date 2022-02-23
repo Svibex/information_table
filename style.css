@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Indira_K";
+    src: url("Indira_K.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 200;
+}
+
+html {
+    background: linear-gradient(90deg, rgba(132,126,138,1) 0%, rgba(62,80,128,1) 50%, rgba(132,126,138,1) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    width: 50%;
+    color: #e2d2c3;
+    font-family: "Indira_K", sans-serif;
+}
+
+img {
+    width: 15px;
+    height: 15px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #c2d3f1;
+    font-size: 45px;
+}
+
+table {
+    background-color: rgba(227,235,246, 0.1);
+    border: 2px solid rgba(227,235,246, 0);
+}
+
+th, td {
+    padding: 3px;
+    border: 1px solid rgb(62,80,128);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.table th {
+    min-width: 125px;
+    height: 50px;
+}
+
+@media (max-width: 1300px) {
+    .table th {
+        min-width: 95px;
+    }
+}
+
+#title-col-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-col-3 img {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.modalWrapper {
+    position: absolute;
+    width: 50%;
+}
+
+.inputForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form__inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 130px;
+}
+
+@media (max-width: 1300px) {
+    input {
+        width: 105px;
+    }
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-grow: 35;
+}
+
+input, textarea {
+    background-color: rgba(227,235,246, 0.95);
+    font-family: "Indira_K", sans-serif;
+    color: #3e5080;
+    border-color: #3e5080;
+    border-width: 1px;
+    border-style: double;
+}
+
+.inputForm td, .buttons td {
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Indira_K", sans-serif;
+    width: 100px;
+    height: 30px;
+    background-color: #e2d2c3;
+    color: #3e5080;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.col-3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation_next:disabled, .navigation_previous:disabled {
+    background-color: #847e8a;
+    cursor: initial;
+}
