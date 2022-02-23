@@ -1,4 +1,4 @@
-https://rybchenko-table.netlify.app/
+Ссылка на деплой: https://rybchenko-table.netlify.app/
 
 ![image](https://user-images.githubusercontent.com/77160861/155376784-97e836c0-0033-476b-8d0c-4cb13fda9824.png)
 
